@@ -49,15 +49,20 @@ nav a{
     color: var(--background-light);
     flex-direction: column;
 }
-.card > header{
-    border-radius:var(--border-radius) ;
+.card > h2{
+    padding: 40px;
+    text-align:center;
+    background: var(--background-light);
+    color:var(--color);
+    border-radius: var(--border-radius);
 }
 .card > p{
 font-size: 12px;
 text-align:center;
 }
 .card >img{
-    width:100px;  
+    width:25%;  
+    height:25%;
     align-items: center;  
 }
 nav a:hover {
