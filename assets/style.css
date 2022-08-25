@@ -57,8 +57,8 @@ nav a{
     border-radius: var(--border-radius);
 }
 .card > p{
-font-size: 12px;
-text-align:center;
+font-size:medium;
+text-align:justify;
 }
 .card >img{
     width:25%;  
