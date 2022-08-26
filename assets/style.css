@@ -73,7 +73,7 @@ text-align:justify;
     height:35%;
     box-shadow: 10px 10px #457b9d;
 }
-.cardTwo > img:hover{
+.cardTwo > img{
     width: 25%;
     height: 25%;
     box-shadow: 10px 10px #457b9d;
