@@ -57,13 +57,26 @@ nav a{
     border-radius: var(--border-radius);
 }
 .card > p{
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
 font-size:medium;
 text-align:justify;
 }
-.card >img{
+.card > a img{
     width:25%;  
     height:25%;
     align-items: center;  
+}
+.card > a img:hover{
+    width:35%;
+    height:35%;
+    box-shadow: 10px 10px #457b9d;
+}
+.cardTwo > img:hover{
+    width: 25%;
+    height: 25%;
+    box-shadow: 10px 10px #457b9d;
 }
 nav a:hover {
     background-color: var(--shadow);
