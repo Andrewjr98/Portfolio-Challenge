@@ -73,6 +73,13 @@ text-align:justify;
     height:35%;
     box-shadow: 10px 10px #457b9d;
 }
+.cardTwo > h2{
+    padding: 40px;
+    text-align:center;
+    background: var(--background-light);
+    color:var(--color);
+    border-radius: var(--border-radius);
+}
 .cardTwo > img{
     width: 25%;
     height: 25%;
